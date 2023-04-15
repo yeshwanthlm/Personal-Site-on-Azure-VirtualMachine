@@ -3,11 +3,8 @@
 ## Step 1: Create Azure VM in the Azure Portal.
 ## Step 2: Login to the Azure VM using terminal.
 ## Step 3: Configure VM to host site.
-## Step 4: Configure DNS
-## Step 5: Test
 
-
-## Step 3 Commands:
+### Commands:
 
 ```sh
 sudo su -
@@ -24,3 +21,7 @@ mv * /var/www/html
 systemctl enable httpd
 systemctl start httpd
 ```
+
+## Step 4: Configure DNS
+## Step 5: Test
+
