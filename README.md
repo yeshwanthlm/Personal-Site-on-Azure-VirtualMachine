@@ -18,8 +18,8 @@ unzip 4uhost.zip
 cd 4uhost
 ls -lrt
 mv * /var/www/html
-systemctl enable httpd
-systemctl start httpd
+systemctl enable apache2
+systemctl start apache2
 ```
 
 ## Step 4: Configure DNS
